@@ -1,0 +1,70 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    padding:2px;
+}
+
+.container {
+    background-color: rgb(199, 199, 199);
+    justify-content: start;
+    overflow: hidden;
+    position:absolute; 
+    width: 700px;
+    height: 550px;
+    top:50%; 
+    left:50%; 
+    transform:translate(-50%,-50%);
+}
+
+.top{
+    background-color: none;
+    text-align: center;  
+    justify-content: start;   
+}
+
+input[type="text"] {
+    width: 85%;
+}
+
+.buttonplace{
+    background-color: none;
+    padding-top: 10px;
+}
+
+button {
+    padding: 7px 25px;
+    background-color: #48609d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.bottom {
+    background-color: none;
+    overflow-y:scroll;
+    scrollbar-width: thick;
+    scrollbar-color: #48609d #dddddd;
+    width:100%;
+    height:77%;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between; /*расстояние от текста до кнопки*/
+    align-items: center;
+    margin: 0px 3px 3px 5px;
+    padding: 10px;
+    background-color: #d1d1d1;
+}
+
+.delete {
+    background-color: #489d64;
+    padding: 7px 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
